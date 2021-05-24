@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%; //converting 1rem into 10px
+}
+
+body {
+    font-family : Helvetica, Arial, sans-serif; //default, first fallback, second fallback font
+    font-size:  $m-size;
+    background: white;
+}
+
+button {
+    cursor : pointer;
+}
+
+button:disabled{
+    cursor : default;
+}
+
+.is-active {
+    font-weight: bold;
+}
