@@ -10,8 +10,8 @@
     "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
     "test": "jest --watch --config=jest.config.json",
-    "start" : "node server/server.js",
-    "heroku-postbuild" : "yarn run build:prod"
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
